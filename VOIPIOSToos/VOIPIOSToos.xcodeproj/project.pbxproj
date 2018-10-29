@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5B0951621869F880089D08F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0951521869F880089D08F /* AppDelegate.m */; };
+		C5B0951921869F880089D08F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0951821869F880089D08F /* ViewController.m */; };
+		C5B0951C21869F890089D08F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B0951A21869F890089D08F /* Main.storyboard */; };
+		C5B0951F21869F890089D08F /* VOIPIOSToos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5B0951D21869F890089D08F /* VOIPIOSToos.xcdatamodeld */; };
+		C5B0952121869F8A0089D08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B0952021869F8A0089D08F /* Assets.xcassets */; };
+		C5B0952421869F8A0089D08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B0952221869F8A0089D08F /* LaunchScreen.storyboard */; };
+		C5B0952721869F8A0089D08F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0952621869F8A0089D08F /* main.m */; };
+		C5B0953121869F8A0089D08F /* VOIPIOSToosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0953021869F8A0089D08F /* VOIPIOSToosTests.m */; };
+		C5B0953C21869F8A0089D08F /* VOIPIOSToosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0953B21869F8A0089D08F /* VOIPIOSToosUITests.m */; };
+		C5B0954C2186A0110089D08F /* YJVoipManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B0954B2186A0110089D08F /* YJVoipManagerTool.m */; };
+		C5B0954F2186A1B50089D08F /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B0954E2186A1B50089D08F /* PushKit.framework */; };
+		C5B095512186A51B0089D08F /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B095502186A51B0089D08F /* NotificationCenter.framework */; };
+		C5B095532186A5220089D08F /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B095522186A5220089D08F /* UserNotificationsUI.framework */; };
+		C5B095552186A52C0089D08F /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B095542186A52C0089D08F /* UserNotifications.framework */; };
+		C5B095582186A72C0089D08F /* YJVoipCall.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B095572186A72C0089D08F /* YJVoipCall.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5B0952D21869F8A0089D08F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5B0950921869F880089D08F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B0951021869F880089D08F;
+			remoteInfo = VOIPIOSToos;
+		};
+		C5B0953821869F8A0089D08F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5B0950921869F880089D08F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B0951021869F880089D08F;
+			remoteInfo = VOIPIOSToos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5B0951121869F880089D08F /* VOIPIOSToos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOIPIOSToos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B0951421869F880089D08F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5B0951521869F880089D08F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5B0951721869F880089D08F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5B0951821869F880089D08F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5B0951B21869F890089D08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5B0951E21869F890089D08F /* VOIPIOSToos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VOIPIOSToos.xcdatamodel; sourceTree = "<group>"; };
+		C5B0952021869F8A0089D08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5B0952321869F8A0089D08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5B0952521869F8A0089D08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B0952621869F8A0089D08F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5B0952C21869F8A0089D08F /* VOIPIOSToosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOIPIOSToosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B0953021869F8A0089D08F /* VOIPIOSToosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOIPIOSToosTests.m; sourceTree = "<group>"; };
+		C5B0953221869F8A0089D08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B0953721869F8A0089D08F /* VOIPIOSToosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOIPIOSToosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B0953B21869F8A0089D08F /* VOIPIOSToosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOIPIOSToosUITests.m; sourceTree = "<group>"; };
+		C5B0953D21869F8A0089D08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B0954A2186A0110089D08F /* YJVoipManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJVoipManagerTool.h; sourceTree = "<group>"; };
+		C5B0954B2186A0110089D08F /* YJVoipManagerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJVoipManagerTool.m; sourceTree = "<group>"; };
+		C5B0954E2186A1B50089D08F /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		C5B095502186A51B0089D08F /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		C5B095522186A5220089D08F /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		C5B095542186A52C0089D08F /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C5B095562186A72C0089D08F /* YJVoipCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJVoipCall.h; sourceTree = "<group>"; };
+		C5B095572186A72C0089D08F /* YJVoipCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJVoipCall.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5B0950E21869F880089D08F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B095552186A52C0089D08F /* UserNotifications.framework in Frameworks */,
+				C5B095532186A5220089D08F /* UserNotificationsUI.framework in Frameworks */,
+				C5B095512186A51B0089D08F /* NotificationCenter.framework in Frameworks */,
+				C5B0954F2186A1B50089D08F /* PushKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B0952921869F8A0089D08F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B0953421869F8A0089D08F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5B0950821869F880089D08F = {
+			isa = PBXGroup;
+			children = (
+				C5B0951321869F880089D08F /* VOIPIOSToos */,
+				C5B0952F21869F8A0089D08F /* VOIPIOSToosTests */,
+				C5B0953A21869F8A0089D08F /* VOIPIOSToosUITests */,
+				C5B0951221869F880089D08F /* Products */,
+				C5B0954D2186A1B50089D08F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5B0951221869F880089D08F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5B0951121869F880089D08F /* VOIPIOSToos.app */,
+				C5B0952C21869F8A0089D08F /* VOIPIOSToosTests.xctest */,
+				C5B0953721869F8A0089D08F /* VOIPIOSToosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5B0951321869F880089D08F /* VOIPIOSToos */ = {
+			isa = PBXGroup;
+			children = (
+				C5B0954921869FBF0089D08F /* VoipToos */,
+				C5B0951421869F880089D08F /* AppDelegate.h */,
+				C5B0951521869F880089D08F /* AppDelegate.m */,
+				C5B0951721869F880089D08F /* ViewController.h */,
+				C5B0951821869F880089D08F /* ViewController.m */,
+				C5B0951A21869F890089D08F /* Main.storyboard */,
+				C5B0952021869F8A0089D08F /* Assets.xcassets */,
+				C5B0952221869F8A0089D08F /* LaunchScreen.storyboard */,
+				C5B0952521869F8A0089D08F /* Info.plist */,
+				C5B0952621869F8A0089D08F /* main.m */,
+				C5B0951D21869F890089D08F /* VOIPIOSToos.xcdatamodeld */,
+			);
+			path = VOIPIOSToos;
+			sourceTree = "<group>";
+		};
+		C5B0952F21869F8A0089D08F /* VOIPIOSToosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5B0953021869F8A0089D08F /* VOIPIOSToosTests.m */,
+				C5B0953221869F8A0089D08F /* Info.plist */,
+			);
+			path = VOIPIOSToosTests;
+			sourceTree = "<group>";
+		};
+		C5B0953A21869F8A0089D08F /* VOIPIOSToosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5B0953B21869F8A0089D08F /* VOIPIOSToosUITests.m */,
+				C5B0953D21869F8A0089D08F /* Info.plist */,
+			);
+			path = VOIPIOSToosUITests;
+			sourceTree = "<group>";
+		};
+		C5B0954921869FBF0089D08F /* VoipToos */ = {
+			isa = PBXGroup;
+			children = (
+				C5B0954A2186A0110089D08F /* YJVoipManagerTool.h */,
+				C5B0954B2186A0110089D08F /* YJVoipManagerTool.m */,
+				C5B095562186A72C0089D08F /* YJVoipCall.h */,
+				C5B095572186A72C0089D08F /* YJVoipCall.m */,
+			);
+			path = VoipToos;
+			sourceTree = "<group>";
+		};
+		C5B0954D2186A1B50089D08F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5B095542186A52C0089D08F /* UserNotifications.framework */,
+				C5B095522186A5220089D08F /* UserNotificationsUI.framework */,
+				C5B095502186A51B0089D08F /* NotificationCenter.framework */,
+				C5B0954E2186A1B50089D08F /* PushKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5B0951021869F880089D08F /* VOIPIOSToos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B0954021869F8A0089D08F /* Build configuration list for PBXNativeTarget "VOIPIOSToos" */;
+			buildPhases = (
+				C5B0950D21869F880089D08F /* Sources */,
+				C5B0950E21869F880089D08F /* Frameworks */,
+				C5B0950F21869F880089D08F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VOIPIOSToos;
+			productName = VOIPIOSToos;
+			productReference = C5B0951121869F880089D08F /* VOIPIOSToos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5B0952B21869F8A0089D08F /* VOIPIOSToosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B0954321869F8A0089D08F /* Build configuration list for PBXNativeTarget "VOIPIOSToosTests" */;
+			buildPhases = (
+				C5B0952821869F8A0089D08F /* Sources */,
+				C5B0952921869F8A0089D08F /* Frameworks */,
+				C5B0952A21869F8A0089D08F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5B0952E21869F8A0089D08F /* PBXTargetDependency */,
+			);
+			name = VOIPIOSToosTests;
+			productName = VOIPIOSToosTests;
+			productReference = C5B0952C21869F8A0089D08F /* VOIPIOSToosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5B0953621869F8A0089D08F /* VOIPIOSToosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B0954621869F8A0089D08F /* Build configuration list for PBXNativeTarget "VOIPIOSToosUITests" */;
+			buildPhases = (
+				C5B0953321869F8A0089D08F /* Sources */,
+				C5B0953421869F8A0089D08F /* Frameworks */,
+				C5B0953521869F8A0089D08F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5B0953921869F8A0089D08F /* PBXTargetDependency */,
+			);
+			name = VOIPIOSToosUITests;
+			productName = VOIPIOSToosUITests;
+			productReference = C5B0953721869F8A0089D08F /* VOIPIOSToosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5B0950921869F880089D08F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = HuaHan;
+				TargetAttributes = {
+					C5B0951021869F880089D08F = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					C5B0952B21869F8A0089D08F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C5B0951021869F880089D08F;
+					};
+					C5B0953621869F8A0089D08F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C5B0951021869F880089D08F;
+					};
+				};
+			};
+			buildConfigurationList = C5B0950C21869F880089D08F /* Build configuration list for PBXProject "VOIPIOSToos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5B0950821869F880089D08F;
+			productRefGroup = C5B0951221869F880089D08F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5B0951021869F880089D08F /* VOIPIOSToos */,
+				C5B0952B21869F8A0089D08F /* VOIPIOSToosTests */,
+				C5B0953621869F8A0089D08F /* VOIPIOSToosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5B0950F21869F880089D08F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B0952421869F8A0089D08F /* LaunchScreen.storyboard in Resources */,
+				C5B0952121869F8A0089D08F /* Assets.xcassets in Resources */,
+				C5B0951C21869F890089D08F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B0952A21869F8A0089D08F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B0953521869F8A0089D08F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5B0950D21869F880089D08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B095582186A72C0089D08F /* YJVoipCall.m in Sources */,
+				C5B0951921869F880089D08F /* ViewController.m in Sources */,
+				C5B0951F21869F890089D08F /* VOIPIOSToos.xcdatamodeld in Sources */,
+				C5B0954C2186A0110089D08F /* YJVoipManagerTool.m in Sources */,
+				C5B0952721869F8A0089D08F /* main.m in Sources */,
+				C5B0951621869F880089D08F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B0952821869F8A0089D08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B0953121869F8A0089D08F /* VOIPIOSToosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B0953321869F8A0089D08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B0953C21869F8A0089D08F /* VOIPIOSToosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5B0952E21869F8A0089D08F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5B0951021869F880089D08F /* VOIPIOSToos */;
+			targetProxy = C5B0952D21869F8A0089D08F /* PBXContainerItemProxy */;
+		};
+		C5B0953921869F8A0089D08F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5B0951021869F880089D08F /* VOIPIOSToos */;
+			targetProxy = C5B0953821869F8A0089D08F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5B0951A21869F890089D08F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5B0951B21869F890089D08F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5B0952221869F8A0089D08F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5B0952321869F8A0089D08F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5B0953E21869F8A0089D08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5B0953F21869F8A0089D08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5B0954121869F8A0089D08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VOIPIOSToos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YYJ.VOIPIOSToos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C5B0954221869F8A0089D08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VOIPIOSToos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YYJ.VOIPIOSToos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C5B0954421869F8A0089D08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VOIPIOSToosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.VOIPIOSToosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOIPIOSToos.app/VOIPIOSToos";
+			};
+			name = Debug;
+		};
+		C5B0954521869F8A0089D08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VOIPIOSToosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.VOIPIOSToosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VOIPIOSToos.app/VOIPIOSToos";
+			};
+			name = Release;
+		};
+		C5B0954721869F8A0089D08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VOIPIOSToosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.VOIPIOSToosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VOIPIOSToos;
+			};
+			name = Debug;
+		};
+		C5B0954821869F8A0089D08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P5G4DWE6L;
+				INFOPLIST_FILE = VOIPIOSToosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuaHan.VOIPIOSToosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VOIPIOSToos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5B0950C21869F880089D08F /* Build configuration list for PBXProject "VOIPIOSToos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B0953E21869F8A0089D08F /* Debug */,
+				C5B0953F21869F8A0089D08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B0954021869F8A0089D08F /* Build configuration list for PBXNativeTarget "VOIPIOSToos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B0954121869F8A0089D08F /* Debug */,
+				C5B0954221869F8A0089D08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B0954321869F8A0089D08F /* Build configuration list for PBXNativeTarget "VOIPIOSToosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B0954421869F8A0089D08F /* Debug */,
+				C5B0954521869F8A0089D08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B0954621869F8A0089D08F /* Build configuration list for PBXNativeTarget "VOIPIOSToosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B0954721869F8A0089D08F /* Debug */,
+				C5B0954821869F8A0089D08F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5B0951D21869F890089D08F /* VOIPIOSToos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5B0951E21869F890089D08F /* VOIPIOSToos.xcdatamodel */,
+			);
+			currentVersion = C5B0951E21869F890089D08F /* VOIPIOSToos.xcdatamodel */;
+			path = VOIPIOSToos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5B0950921869F880089D08F /* Project object */;
+}
